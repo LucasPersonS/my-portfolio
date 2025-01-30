@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap');
+
+@font-face{
+  font-family: 'Otterco';
+  src: url('/Otterco-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-100 text-white font-sans;
+  font-family: 'Manrope', sans-serif;
+  user-select: none;
+  cursor: none;
+  scroll-behavior: smooth;
+  background-image: url('/noise.mp4');
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+
+.highlight {
+  position: relative;
+  display: inline-block;
+  color: inherit;
+}
+
+.highlight::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 0.65em;
+  background: url('/highlight.png');
+  background-size: cover;
+  z-index: -1;
+  animation: highlightAnimation 2s ease-in-out forwards;
+}
+
+@keyframes highlightAnimation {
+  0% {
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+  100% {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+}
+
+.rounded-intersection {
+  border-radius: 0px 0px 150px 150px;
+  overflow: hidden;
+}
+
+.rounded-top {
+  border-radius: 150px 150px 0 0;
+  overflow: hidden;
+}
+
+.rounded-bottom {
+  border-radius: 0 0 150px 150px;
+  overflow: hidden;
+}
