@@ -15,6 +15,13 @@ export const projects: Project[] = [
     github: 'https://github.com/LucasPersonS/clean-energy-blog',
   },
   {
+    title: 'PORTFOLIO',
+    image: '/PROJECT7.png',
+    tags: ['WEBSITE DESIGN', "CODING"],
+    link: 'lupzportfolio.vercel.app',
+    github: 'https://github.com/LucasPersonS/my-portfolio',
+  },
+  {
     title: 'Ogi Insurance Chatbot',
     image: '/PROJECT2.png',
     tags: ['ARTIFICIAL INTELLIGENCE', "CHATBOT", "GEMINI"],
@@ -34,36 +41,19 @@ export const projects: Project[] = [
     tags: ['GAMING', "DESIGN", "CODING"],
     link: 'https://v0-twitch-clicker-3-0-gre07yh97o4-lucaspersons-projects.vercel.app',
     github: 'https://github.com/LucasPersonS/twitch-clicker-game',
-
   },
-  {
-    title: 'COLLEGE DASHBOARD',
-    image: '/PROJECT5.png',
-    tags: ['DASHBOARD', "DESIGN", "APIs"],
-    link: 'https://example.com/project1',
-    github: 'https://github.com/user/project1',
-  },
-
   {
     title: 'COMMUNITY WEBSITE',
     image: '/PROJECT6.png',
     tags: ['COMMUNITY', "DESIGN", "CODING"],
-    link: 'https://example.com/project1',
-    github: 'https://github.com/user/project1',
+    link: 'https://horrorsmp.vercel.app',
+    github: 'https://github.com/LucasPersonS/SMP---Horror',
   },
-  {
-    title: 'PORTFOLIO',
-    image: '/PROJECT7.png',
-    tags: ['WEBSITE DESIGN', "CODING"],
-    link: 'https://example.com/project1',
-    github: 'https://github.com/user/project1',
-  },
-
   {
     title: 'STREAMING WEBSITE',
     image: '/PROJECT8.png',
     tags: ['DESIGN', "CODING"],
-    link: 'https://example.com/project1',
-    github: 'https://github.com/user/project1',
+    link: 'https://github.com/LucasPersonS/STREAMING',
+    github: 'https://github.com/LucasPersonS/STREAMING',
   },
 ];

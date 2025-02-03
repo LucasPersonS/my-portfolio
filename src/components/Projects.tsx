@@ -121,12 +121,16 @@ const Projects: React.FC<ProjectsProps> = ({ setIsHovering }) => {
             ))}
           </div>
           <div className="flex justify-center items-center gap-4 mb-6">
-            <a href={projects[selectedProject].link} target="_blank" rel="noopener noreferrer" className="text-black hover:underline">
-              <FaLink size={24} />
-            </a>
-            <a href={projects[selectedProject].github} target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-black">
-              <FaGithub size={24} />
-            </a>
+            {projects[selectedProject].link && (
+              <a href={projects[selectedProject].link} target="_blank" rel="noopener noreferrer" className="text-black hover:underline">
+                <FaLink size={24} />
+              </a>
+            )}
+            {projects[selectedProject].github && (
+              <a href={projects[selectedProject].github} target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-black">
+                <FaGithub size={24} />
+              </a>
+            )}
           </div>
           <div className="flex justify-center">
             <button onClick={closePopup} className="px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300">
