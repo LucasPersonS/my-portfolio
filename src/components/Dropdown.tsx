@@ -31,17 +31,17 @@ const Dropdown: React.FC<DropdownProps> = ({ isOpen, onClose }) => {
           transition={{ duration: 0.3 }}
         >
           <div className="text-black text-2xl">
-            <a href="#portfolio" className="block mb-4">
+            <a href="#projects" className="block mb-4">
               <HoverAnimatedText text="portfolio" />
             </a>
-            <a href="#about" className="block mb-4">
+            <a href="#hero" className="block mb-4">
               <HoverAnimatedText text="about" />
             </a>
             <a href="#expertise" className="block mb-4">
               <HoverAnimatedText text="expertise" />
             </a>
-            <a href="#contact" className="block mb-4">
-              <HoverAnimatedText text="contact us" />
+            <a href="https://wa.me/+5511963520983" className="block mb-4">
+              <HoverAnimatedText text="contact me" />
             </a>
           </div>
           <div className="flex space-x-4 mt-12 text-2xl justify-center">

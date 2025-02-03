@@ -38,7 +38,7 @@ const Header: React.FC<HeaderProps> = ({ setIsHovering }) => {
       <a href='' className="text-4xl font-bold text-white hidden md:block">Lupz</a>
     </div>
     <nav className="flex absolute items-center right-10 bottom-8 space-x-8">
-      <a href=''
+      <a href='https://wa.me/5511963520983'
         className="hidden sm:block"
         onMouseEnter={() => setIsHovering(true)}
         onMouseLeave={() => setIsHovering(false)}

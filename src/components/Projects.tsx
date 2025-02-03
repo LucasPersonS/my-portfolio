@@ -4,51 +4,7 @@ import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { FaGithub } from 'react-icons/fa';
 import { FaLink } from 'react-icons/fa';
-
-const projects = [
-  {
-    title: 'Register & Login APIs',
-    image: '/PROJECT1.png',
-    tags: ['AUTHENTICATION', 'SOCIAL MEDIA', 'APIs'],
-    link: 'https://example.com/project1',
-    github: 'https://github.com/user/project1',
-  },
-  {
-    title: 'Ogi Insurance Chatbot',
-    image: '/PROJECT2.png',
-    tags: ['ARTIFICIAL INTELLIGENCE', "CHATBOT", "GEMINI"],
-  },
-  {
-    title: 'Porto Insurance Website',
-    image: '/PROJECT3.png',
-    tags: ['APIs', "CHATBOT", "AUTHENTICATION"],
-  },
-  {
-    title: 'Twitch Clicker Game',
-    image: '/PROJECT4.png',
-    tags: ['GAMING', "DESIGN", "CODING"],
-  },
-  {
-    title: 'COLLEGE DASHBOARD',
-    image: '/PROJECT5.png',
-    tags: ['DASHBOARD', "DESIGN", "APIs"],
-  },
-  {
-    title: 'COMMUNITY WEBSITE',
-    image: '/PROJECT6.png',
-    tags: ['COMMUNITY', "DESIGN", "CODING"],
-  },
-  {
-    title: 'PORTFOLIO',
-    image: '/PROJECT7.png',
-    tags: ['WEBSITE DESIGN', "CODING"],
-  },
-  {
-    title: 'STREAMING WEBSITE',
-    image: '/PROJECT8.png',
-    tags: ['DESIGN', "CODING"],
-  },
-];
+import { projects, Project } from '../types';
 
 interface ProjectsProps {
   setIsHovering: (hovering: boolean) => void;

@@ -25,8 +25,9 @@ const services = [
 
 const Services = () => {
   return (
-    <section className="relative py-20 bg-gray-100 text-center mt-12 overflow-hidden">
+    <section id="expertise" className="relative py-20 bg-gray-100 text-center mt-12 overflow-hidden">
       <h2 className="text-5xl font-bold mb-2 text-black font-bebas">Services</h2>
+
       <p className="text-2xl font-light text-gray-800 mb-16">Collaborate with brands and agencies to create impactful results.</p>
       <div className="flex flex-wrap justify-center">
         {services.map((service, index) => (

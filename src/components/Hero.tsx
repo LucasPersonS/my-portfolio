@@ -18,7 +18,7 @@ const Hero = () => {
   };
 
   return (
-    <motion.section
+    <motion.section id="hero"
     ref={ref}
     initial="hidden"
     animate={controls}

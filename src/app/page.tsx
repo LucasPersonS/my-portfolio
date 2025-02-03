@@ -6,10 +6,8 @@ import Services from '../components/Services';
 import CursorTrail from '@/components/CursorTrail';
 import ContactSection from '../components/ContactSection';
 import { useState } from 'react';
-import { useTranslation } from 'next-i18next';
 
 const Home = () => {
-  const { t } = useTranslation('common');
   const [isHovering, setIsHovering] = useState(false);
 
   return (
